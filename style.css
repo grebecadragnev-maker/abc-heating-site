@@ -79,6 +79,16 @@ p{margin:0 0 1em}
 .faq details{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
 .faq summary{font-weight:600;cursor:pointer}
 .faq p{margin:.7em 0 0;color:var(--ink-2)}
+/* реализирани обекти */
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:26px}
+.gallery a{display:block;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff}
+.gallery a:hover{border-color:var(--brand)}
+.gallery img{border-radius:0;width:100%;aspect-ratio:4/3;object-fit:cover;margin:0}
+.project-card{padding:0;overflow:hidden}
+.project-card img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:0;margin:0;display:block}
+.project-card h3{padding:18px 22px 0;margin:0 0 .4em}
+.project-card p{padding:0 22px;margin:0 0 .6em}
+.project-card .card-more{display:block;padding:0 22px 20px}
 .crumbs{font-size:.9rem;color:var(--muted);margin-bottom:14px}
 .cta{background:var(--ink);color:#fff;padding:60px 0}
 .cta h2,.cta .lead{color:#fff}
